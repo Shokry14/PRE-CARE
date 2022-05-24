@@ -52,9 +52,7 @@
   /**
    * Initiate glightbox 
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
+
 
   /**
    * Back to top button
@@ -73,26 +71,5 @@
    }
 
 })();
-
-function myFunction1() {
-  var elmnt = document.getElementById("home");
-  elmnt.scrollIntoView();
-}
-function myFunction2() {
-  var elmnt = document.getElementById("about");
-  elmnt.scrollIntoView();
-}
-function myFunction3() {
-  var elmnt = document.getElementById("services");
-  elmnt.scrollIntoView();
-}
-function myFunction4() {
-  var elmnt = document.getElementById("doctors");
-  elmnt.scrollIntoView();
-}
-function myFunction5() {
-  var elmnt = document.getElementById("contact");
-  elmnt.scrollIntoView();
-}
 
 
